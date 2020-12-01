@@ -2,7 +2,10 @@
  Laravel Url Shortner
 
  ## Explantion 
-I decided to use Laravel for this porject becuase of it's ability to manipulate the database, model, controllers and ease of createing routes.
+I decided to use Laravel for this project because of its ability to manipulate the database, model, controllers and ease of creating routes. Being the first time making a url shortener i had to do some research and learn via some tutorials. 
+
+First thing I made was the database and created the migration, then created the Url Model and then the UrlController. In the UrlController I added what was to be stored and shown via the form to the database then to the user. I edited the welcome.blade.php to have the form and then created a success page which shows the generated short url clickable link.
+
 
 ### Installation ###
 
