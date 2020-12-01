@@ -17,4 +17,4 @@ First thing I made was the database and created the migration, then created the 
 * `php artisan migrate --seed` to create and populate tables
 * Inform *config/mail.php* for email sends
 * `php artisan vendor:publish` to publish filemanager
-* `php artisan serve` to start the app on http://localhost:8000/ or if you are using MAMP and local mysql database you can set that up and inform the *.env* file to match your local settings.
+* `php artisan serve` to start the app on http://localhost/urlshortner/public/ or if you are using MAMP and local mysql database you can set that up and inform the *.env* file to match your local settings.
